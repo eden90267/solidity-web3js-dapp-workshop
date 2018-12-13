@@ -6,4 +6,4 @@
 
 1. [區塊鏈介紹](./intro.md)
 2. [區塊鏈技術介紹 - 以比特幣為例](./intro-technology.md)
-3. [錢包](./wallet.md)
+3. [Solidity & web3.js](./solidity-and-web3js.md)
