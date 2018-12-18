@@ -26,3 +26,32 @@
 5. 寫入區塊鏈
 
 私鑰可開出很多錢包地址出來 (類似你一個人開多個銀行帳號)
+
+## 環境建立
+
+- 安裝 [metamask](https://metamask.io/)
+  - 有主鏈、測試鏈供測試
+- [取得測試用以太幣](https://faucet.rinkeby.io/)、 [Google Plus](https://plus.google.com/)
+  - 用社群放 Public Key 內容連結，讓 rinkeby 知道你是真人
+- 傳送以太幣給其他帳號
+- 正式環境約 10 - 20 分鐘交易完成，有可能是失敗的 (塞車、程式沒寫好)
+- [以太幣值轉換](https://etherconverter.online/)
+  - 手續費
+    - 0.000084 GWEI
+    - 0.06 USD
+    - 不會因為你交易的幣值變多手續費就變多，僅收基本費用
+- 以太幣每做一個運算，都要收手續費
+  - 成本要估計
+  - 讀取不用費用，修改或運算則都要
+- [remix](https://remix.ethereum.org/)
+  - 不用架環境
+- [prepos](https://prepros.io/)
+  - local 環境
+
+## 以太智能合約
+
+以太同比特幣都可儲存交易紀錄外，還可寫智能合約，將執行的程式公開透明在區塊鏈上，去中心化
+
+## Solidity 程式教學
+
+- 副檔名：.sol，編譯後可部署到區塊鏈上
